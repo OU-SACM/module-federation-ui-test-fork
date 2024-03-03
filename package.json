@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "module-federation-ui-monorepo",
+  "name": "bundler-ui-monorepo",
   "scripts": {
     "new": "modern new",
     "reset": "modern clear",
@@ -10,7 +10,7 @@
     "prepare": "husky install",
     "change-status": "modern change-status",
     "gen-release-note": "modern gen-release-note",
-    "release": "modern release",
+    "reease": "modern release",
     "deploy": "modern deploy",
     "lint": "modern lint",
     "upgrade": "modern upgrade"
@@ -31,7 +31,8 @@
   "workspaces": {
     "packages": [
       "apps/*",
-      "packages/*"
+      "packages/*",
+      "services/*"
     ]
   },
   "devDependencies": {
