@@ -1,5 +1,5 @@
 module.exports = {
-  root: true,
-  extends: ['@modern-js'],
-  ignorePatterns: ['apps/*'],
+    root: true,
+    extends: ["@modern-js"],
+    ignorePatterns: ["apps/*", "tailwindcss.config.ts"],
 };
