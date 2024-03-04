@@ -66,9 +66,6 @@ importers:
       '@types/react-dom':
         specifier: ~18.0.10
         version: 18.0.11
-      husky:
-        specifier: ~8.0.1
-        version: 8.0.3
       lint-staged:
         specifier: ~13.1.0
         version: 13.1.4
